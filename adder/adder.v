@@ -1,3 +1,4 @@
+
 /* ACM Class System (I) Fall Assignment 1 
  *
  * Implement your naive adder here
@@ -60,7 +61,7 @@ module adder_32bit (input [31:0] a, input [31:0] b, input cin, output [31:0] s, 
 	assign c = carry[3];
 endmodule
 
-module Add(
+module adder(
 	input [31:0] a,
 	input [31:0] b,
 	output reg [31:0] sum,
